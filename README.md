@@ -1,5 +1,5 @@
 # Yandex Translate Lite
-### Данное приложение было написано по [этой](https://vscode.ru/prog-lessons/rabota-s-api-yandex-perevodchika.html) инструкции.
+#### Данное приложение было написано по [этой](https://vscode.ru/prog-lessons/rabota-s-api-yandex-perevodchika.html) инструкции.
 ## Описание
 Неофициальный клиент переводчика от Яндекс для Windows.
 ## Системные требования
