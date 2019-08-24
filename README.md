@@ -5,5 +5,5 @@
 ## Системные требования
 * Операционная система: Windows 7/8/8.1/10
 * Дополнительно: [.NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653), интернет-соединение, доступ к сервисам компании Яндекс (если доступа нет, то можно использовать VPN)
-## Скриншот
-![alt text](https://i.imgur.com/Yba5iuX.png) 
+## Скриншоты
+![alt text](https://i.imgur.com/29EVsma.jpg) ![alt text](https://i.imgur.com/DlDwsLr.jpg)  ![alt text](https://i.imgur.com/6PNiCOv.jpg) 
