@@ -41,12 +41,12 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(8, 207);
+            this.materialLabel1.Location = new System.Drawing.Point(8, 193);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(205, 84);
             this.materialLabel1.TabIndex = 10;
-            this.materialLabel1.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.1\r\nСборка: 14102019";
+            this.materialLabel1.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.2\r\nСборка: 04112019";
             // 
             // pictureBox1
             // 
@@ -62,11 +62,11 @@
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(12, 294);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(12, 280);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
-            this.materialRaisedButton1.Size = new System.Drawing.Size(190, 35);
+            this.materialRaisedButton1.Size = new System.Drawing.Size(201, 35);
             this.materialRaisedButton1.TabIndex = 13;
             this.materialRaisedButton1.Text = "Официальная страница";
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
@@ -74,9 +74,8 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(231, 344);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(226, 328);
             this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.materialLabel1);
