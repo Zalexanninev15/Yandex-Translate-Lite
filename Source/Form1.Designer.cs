@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.inputTextBox = new System.Windows.Forms.RichTextBox();
             this.b_w = new MaterialSkin.Controls.MaterialCheckBox();
@@ -44,7 +43,7 @@
             this.materialRaisedButton4 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton5 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton6 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.materialRaisedButton7 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.SuspendLayout();
             // 
             // inputTextBox
@@ -54,7 +53,7 @@
             this.inputTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.inputTextBox.Location = new System.Drawing.Point(12, 102);
             this.inputTextBox.Name = "inputTextBox";
-            this.inputTextBox.Size = new System.Drawing.Size(292, 220);
+            this.inputTextBox.Size = new System.Drawing.Size(289, 220);
             this.inputTextBox.TabIndex = 4;
             this.inputTextBox.Text = "";
             // 
@@ -62,7 +61,7 @@
             // 
             this.b_w.Depth = 0;
             this.b_w.Font = new System.Drawing.Font("Roboto", 10F);
-            this.b_w.Location = new System.Drawing.Point(310, 285);
+            this.b_w.Location = new System.Drawing.Point(307, 285);
             this.b_w.Margin = new System.Windows.Forms.Padding(0);
             this.b_w.MouseLocation = new System.Drawing.Point(-1, -1);
             this.b_w.MouseState = MaterialSkin.MouseState.HOVER;
@@ -162,11 +161,11 @@
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(166, 332);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(165, 331);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
-            this.materialRaisedButton1.Size = new System.Drawing.Size(138, 35);
+            this.materialRaisedButton1.Size = new System.Drawing.Size(136, 35);
             this.materialRaisedButton1.TabIndex = 0;
             this.materialRaisedButton1.Text = "Перевести";
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
@@ -177,11 +176,11 @@
             this.materialRaisedButton2.BackColor = System.Drawing.SystemColors.Control;
             this.materialRaisedButton2.Depth = 0;
             this.materialRaisedButton2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(310, 331);
+            this.materialRaisedButton2.Location = new System.Drawing.Point(307, 331);
             this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton2.Name = "materialRaisedButton2";
             this.materialRaisedButton2.Primary = true;
-            this.materialRaisedButton2.Size = new System.Drawing.Size(133, 36);
+            this.materialRaisedButton2.Size = new System.Drawing.Size(136, 35);
             this.materialRaisedButton2.TabIndex = 7;
             this.materialRaisedButton2.Text = "О приложении";
             this.materialRaisedButton2.UseVisualStyleBackColor = true;
@@ -194,7 +193,7 @@
             this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton3.Name = "materialRaisedButton3";
             this.materialRaisedButton3.Primary = true;
-            this.materialRaisedButton3.Size = new System.Drawing.Size(279, 36);
+            this.materialRaisedButton3.Size = new System.Drawing.Size(142, 35);
             this.materialRaisedButton3.TabIndex = 8;
             this.materialRaisedButton3.Text = "СКОПИРОВАТЬ";
             this.materialRaisedButton3.UseVisualStyleBackColor = true;
@@ -203,11 +202,11 @@
             // materialRaisedButton4
             // 
             this.materialRaisedButton4.Depth = 0;
-            this.materialRaisedButton4.Location = new System.Drawing.Point(310, 195);
+            this.materialRaisedButton4.Location = new System.Drawing.Point(307, 195);
             this.materialRaisedButton4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton4.Name = "materialRaisedButton4";
             this.materialRaisedButton4.Primary = true;
-            this.materialRaisedButton4.Size = new System.Drawing.Size(133, 36);
+            this.materialRaisedButton4.Size = new System.Drawing.Size(136, 36);
             this.materialRaisedButton4.TabIndex = 9;
             this.materialRaisedButton4.Text = "ОТЧИСТКА";
             this.materialRaisedButton4.UseVisualStyleBackColor = true;
@@ -216,11 +215,11 @@
             // materialRaisedButton5
             // 
             this.materialRaisedButton5.Depth = 0;
-            this.materialRaisedButton5.Location = new System.Drawing.Point(310, 237);
+            this.materialRaisedButton5.Location = new System.Drawing.Point(307, 237);
             this.materialRaisedButton5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton5.Name = "materialRaisedButton5";
             this.materialRaisedButton5.Primary = true;
-            this.materialRaisedButton5.Size = new System.Drawing.Size(133, 36);
+            this.materialRaisedButton5.Size = new System.Drawing.Size(136, 36);
             this.materialRaisedButton5.TabIndex = 10;
             this.materialRaisedButton5.Text = "ВЕБ-ВЕРСИЯ";
             this.materialRaisedButton5.UseVisualStyleBackColor = true;
@@ -229,7 +228,7 @@
             // materialRaisedButton6
             // 
             this.materialRaisedButton6.Depth = 0;
-            this.materialRaisedButton6.Location = new System.Drawing.Point(12, 332);
+            this.materialRaisedButton6.Location = new System.Drawing.Point(11, 331);
             this.materialRaisedButton6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton6.Name = "materialRaisedButton6";
             this.materialRaisedButton6.Primary = true;
@@ -239,10 +238,24 @@
             this.materialRaisedButton6.UseVisualStyleBackColor = true;
             this.materialRaisedButton6.Click += new System.EventHandler(this.materialRaisedButton6_Click);
             // 
+            // materialRaisedButton7
+            // 
+            this.materialRaisedButton7.Depth = 0;
+            this.materialRaisedButton7.Location = new System.Drawing.Point(597, 331);
+            this.materialRaisedButton7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton7.Name = "materialRaisedButton7";
+            this.materialRaisedButton7.Primary = true;
+            this.materialRaisedButton7.Size = new System.Drawing.Size(131, 35);
+            this.materialRaisedButton7.TabIndex = 12;
+            this.materialRaisedButton7.Text = "ОТЧИСТКА";
+            this.materialRaisedButton7.UseVisualStyleBackColor = true;
+            this.materialRaisedButton7.Click += new System.EventHandler(this.materialRaisedButton7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(742, 380);
+            this.Controls.Add(this.materialRaisedButton7);
             this.Controls.Add(this.materialRaisedButton6);
             this.Controls.Add(this.materialRaisedButton5);
             this.Controls.Add(this.materialRaisedButton4);
@@ -284,7 +297,7 @@
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton4;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton5;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton6;
-        private System.IO.Ports.SerialPort serialPort1;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton7;
     }
 }
 

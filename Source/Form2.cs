@@ -22,10 +22,6 @@ namespace Translator
             // Дефолтная тема
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
-
-            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Yellow800, Primary.Yellow700, Primary.Yellow100, Accent.Blue200, TextShade.WHITE);
-            // 1 - под заголовком, 2 - заголовок, 3 - ?, 4 - элементы выбора
         }
 
         private void Form2_Load(object sender, EventArgs e)
