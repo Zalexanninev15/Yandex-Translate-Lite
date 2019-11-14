@@ -1,7 +1,7 @@
 # Яндекс Переводчик Лайт
-## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/download/1.2/YandexTranslate-Lite.zip)
+## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/download/1.2.5/Translate.zip)
 ## Скриншот
-![alt text](https://i.imgur.com/Wh4P8CM.png)
+![alt text](https://i.imgur.com/kgZY3nw.png)
 ## Описание
 Неофициальный клиент сервиса Яндекс Переводчика для Windows
 ## Системные требования
