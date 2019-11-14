@@ -135,5 +135,10 @@ namespace Translator
         {
             inputTextBox.Text = Clipboard.GetText(); ;
         }
+
+        private void materialRaisedButton7_Click(object sender, EventArgs e)
+        {
+            outputTextBox.Clear();
+        }
     }
 }
