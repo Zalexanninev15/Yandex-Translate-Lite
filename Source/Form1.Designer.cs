@@ -208,7 +208,7 @@
             this.materialRaisedButton4.Primary = true;
             this.materialRaisedButton4.Size = new System.Drawing.Size(136, 36);
             this.materialRaisedButton4.TabIndex = 9;
-            this.materialRaisedButton4.Text = "ОТЧИСТКА";
+            this.materialRaisedButton4.Text = "ОЧИСТКА";
             this.materialRaisedButton4.UseVisualStyleBackColor = true;
             this.materialRaisedButton4.Click += new System.EventHandler(this.MaterialRaisedButton4_Click);
             // 
@@ -247,7 +247,7 @@
             this.materialRaisedButton7.Primary = true;
             this.materialRaisedButton7.Size = new System.Drawing.Size(131, 35);
             this.materialRaisedButton7.TabIndex = 12;
-            this.materialRaisedButton7.Text = "ОТЧИСТКА";
+            this.materialRaisedButton7.Text = "ОЧИСТКА";
             this.materialRaisedButton7.UseVisualStyleBackColor = true;
             this.materialRaisedButton7.Click += new System.EventHandler(this.materialRaisedButton7_Click);
             // 
