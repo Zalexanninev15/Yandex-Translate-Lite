@@ -59,7 +59,7 @@
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(191, 76);
             this.materialLabel2.TabIndex = 14;
-            this.materialLabel2.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.2.6\r\nСборка: 15112019";
+            this.materialLabel2.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.2.6\r\nСборка: 20112019";
             // 
             // pictureBox2
             // 
@@ -85,7 +85,6 @@
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "О приложении";
-            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

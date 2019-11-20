@@ -35,16 +35,6 @@ namespace Translator
 
         }
 
-        private void MaterialRadioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void B_w_CheckedChanged_1(object sender, EventArgs e)
         {
             if (b_w.Checked)
@@ -112,11 +102,6 @@ namespace Translator
         {
             inputTextBox.Clear();
             outputTextBox.Clear();
-        }
-
-        private void MaterialRadioButton2_CheckedChanged_1(object sender, EventArgs e)
-        {
-
         }
 
         private void MaterialRaisedButton2_Click(object sender, EventArgs e)
