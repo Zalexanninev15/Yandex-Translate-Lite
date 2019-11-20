@@ -100,7 +100,6 @@
             this.materialRadioButton1.TabStop = true;
             this.materialRadioButton1.Text = "Английский";
             this.materialRadioButton1.UseVisualStyleBackColor = true;
-            this.materialRadioButton1.CheckedChanged += new System.EventHandler(this.MaterialRadioButton2_CheckedChanged);
             // 
             // materialRadioButton2
             // 
@@ -117,7 +116,6 @@
             this.materialRadioButton2.TabStop = true;
             this.materialRadioButton2.Text = "Русский";
             this.materialRadioButton2.UseVisualStyleBackColor = true;
-            this.materialRadioButton2.CheckedChanged += new System.EventHandler(this.MaterialRadioButton2_CheckedChanged_1);
             // 
             // materialLabel1
             // 
@@ -276,7 +274,6 @@
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Яндекс Переводчик Лайт";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
