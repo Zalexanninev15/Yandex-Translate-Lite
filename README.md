@@ -1,4 +1,4 @@
-# Яндекс Переводчик Лайт
+# Яндекс Переводчик Лайт [4PDA](http://4pda.ru/forum/index.php?showtopic=970814)
 ## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/download/1.2.6/App.zip)
 ## Скриншот
 ![alt text](https://i.imgur.com/tIVkIEG.png)
