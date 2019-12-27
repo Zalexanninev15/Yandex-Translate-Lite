@@ -12,3 +12,17 @@ C:\Users\Максим\Desktop\Yandex-Translate-Lite-master\Source\obj\Release\Tr
 C:\Users\Максим\Desktop\Yandex-Translate-Lite-master\Source\obj\Release\Translator.csproj.CopyComplete
 C:\Users\Максим\Desktop\Yandex-Translate-Lite-master\Source\obj\Release\Яндекс Переводчик Лайт.exe
 C:\Users\Максим\Desktop\Yandex-Translate-Lite-master\Source\obj\Release\Яндекс Переводчик Лайт.pdb
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\bin\Release\Яндекс Переводчик Лайт.exe.config
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\bin\Release\Яндекс Переводчик Лайт.exe
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\bin\Release\Яндекс Переводчик Лайт.pdb
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\bin\Release\MaterialSkin.dll
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\bin\Release\Newtonsoft.Json.dll
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\bin\Release\Newtonsoft.Json.xml
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Translator.csprojAssemblyReference.cache
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Translator.Form1.resources
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Translator.Form2.resources
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Translator.Properties.Resources.resources
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Translator.csproj.GenerateResource.cache
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Translator.csproj.CopyComplete
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Яндекс Переводчик Лайт.exe
+C:\Users\Максим\Desktop\Yandex-Translate-Lite\Source\obj\Release\Яндекс Переводчик Лайт.pdb
