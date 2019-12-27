@@ -3,7 +3,7 @@
 ## Скриншот
 ![alt text](https://i.imgur.com/tIVkIEG.png)
 ## Описание
-Неофициальный клиент сервиса Яндекс Переводчика для Windows
+Неофициальный клиент сервиса Яндекс Переводчика для Windows ([коды языков](https://github.com/Zalexanninev15/Yandex-Translate-Lite/blob/master/%D0%9A%D0%BE%D0%B4%D1%8B%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2/README.md))
 ## Системные требования
 * Операционная система: Windows 7/8/8.1/10
 * Дополнительно: [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653), интернет-соединение, доступ к сервисам компании Яндекс (если доступа нет, то можно использовать VPN)
