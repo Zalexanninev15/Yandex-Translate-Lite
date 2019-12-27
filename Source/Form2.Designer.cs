@@ -59,7 +59,7 @@
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(191, 76);
             this.materialLabel2.TabIndex = 14;
-            this.materialLabel2.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.2.6\r\nСборка: 20112019";
+            this.materialLabel2.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.4\r\nСборка: 27122019";
             // 
             // pictureBox2
             // 
@@ -74,7 +74,7 @@
             // Form2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(217, 329);
+            this.ClientSize = new System.Drawing.Size(217, 324);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialRaisedButton1);
