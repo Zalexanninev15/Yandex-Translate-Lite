@@ -1,7 +1,7 @@
 # Яндекс Переводчик Лайт ([4PDA](http://4pda.ru/forum/index.php?showtopic=970814))
-## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/download/1.2.6/App.zip)
+## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/download/1.4/App.zip)
 ## Скриншот
-![alt text](https://i.imgur.com/tIVkIEG.png)
+![alt text](https://i.imgur.com/a1yWaQR.jpg)
 ## Описание
 Неофициальный клиент сервиса Яндекс Переводчика для Windows ([коды языков](https://github.com/Zalexanninev15/Yandex-Translate-Lite/blob/master/%D0%9A%D0%BE%D0%B4%D1%8B%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2/README.md))
 ## Системные требования
