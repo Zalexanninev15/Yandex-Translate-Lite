@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -17,7 +16,7 @@ namespace Translator
             if (s.Length > 0)
             {
                 WebRequest request = WebRequest.Create("https://translate.yandex.net/api/v1.5/tr.json/translate?"
-                    + "key= "// key=[Ваш ключ] (Ключ берём отсюда: https://yandex.ru/dev/keys/get/)
+                    + "key=trnsl.1.1.20191227T072323Z.6e5ebdea3dcc5779.cb2450f92884d727818da4ad23ffb975ebf1c31b"// key=Ваш ключ (Ключ берём отсюда: https://yandex.ru/dev/keys/get/)
                     + "&text=" + s
                     + "&lang=" + lang
                     + "&options = 1");

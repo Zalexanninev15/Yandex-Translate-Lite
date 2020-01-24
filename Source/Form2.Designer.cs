@@ -59,7 +59,7 @@
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(191, 76);
             this.materialLabel2.TabIndex = 14;
-            this.materialLabel2.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.4\r\nСборка: 27122019";
+            this.materialLabel2.Text = "Яндекс Переводчик Лайт\r\nАвтор: Zalexanninev15\r\nВерсия: 1.5\r\nСборка: 24012020";
             // 
             // pictureBox2
             // 
