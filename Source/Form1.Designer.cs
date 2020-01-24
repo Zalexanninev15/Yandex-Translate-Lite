@@ -55,6 +55,7 @@
             this.inputTextBox.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.inputTextBox.Location = new System.Drawing.Point(12, 102);
             this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.inputTextBox.Size = new System.Drawing.Size(289, 269);
             this.inputTextBox.TabIndex = 4;
             this.inputTextBox.Text = "";
@@ -83,6 +84,7 @@
             this.outputTextBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.outputTextBox.Location = new System.Drawing.Point(477, 102);
             this.outputTextBox.Name = "outputTextBox";
+            this.outputTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.outputTextBox.Size = new System.Drawing.Size(279, 269);
             this.outputTextBox.TabIndex = 6;
             this.outputTextBox.Text = "";
@@ -125,7 +127,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(77, 74);
+            this.materialLabel1.Location = new System.Drawing.Point(76, 74);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(157, 19);
@@ -138,7 +140,7 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(536, 74);
+            this.materialLabel2.Location = new System.Drawing.Point(538, 74);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(159, 19);
@@ -176,11 +178,11 @@
             this.materialRaisedButton2.BackColor = System.Drawing.SystemColors.Control;
             this.materialRaisedButton2.Depth = 0;
             this.materialRaisedButton2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(320, 377);
+            this.materialRaisedButton2.Location = new System.Drawing.Point(307, 377);
             this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton2.Name = "materialRaisedButton2";
             this.materialRaisedButton2.Primary = true;
-            this.materialRaisedButton2.Size = new System.Drawing.Size(136, 35);
+            this.materialRaisedButton2.Size = new System.Drawing.Size(163, 35);
             this.materialRaisedButton2.TabIndex = 7;
             this.materialRaisedButton2.Text = "О приложении";
             this.materialRaisedButton2.UseVisualStyleBackColor = true;
