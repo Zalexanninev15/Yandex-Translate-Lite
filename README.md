@@ -4,7 +4,7 @@
 ## Скриншот
 ![alt text](https://i.imgur.com/a1yWaQR.jpg)
 ## Описание
-Неофициальный клиент сервиса Яндекс Переводчик под Windows.  Используется Material Design, а также имеется поддержка тёмной темы. ([коды языков](https://github.com/Zalexanninev15/Yandex-Translate-Lite/blob/master/%D0%9A%D0%BE%D0%B4%D1%8B%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2/README.md))
+Неофициальный клиент сервиса Яндекс Переводчик под Windows. Используется Material Design, а также имеется поддержка тёмной темы. ([коды языков](https://github.com/Zalexanninev15/Yandex-Translate-Lite/blob/master/%D0%9A%D0%BE%D0%B4%D1%8B%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2/README.md))
 ## Особенности:
 * Приложение портативное и не требует установки
 * Поддержка всех языков, которые предоставляет Яндекс Переводчик API
