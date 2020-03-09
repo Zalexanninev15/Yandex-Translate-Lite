@@ -1,8 +1,7 @@
 # Яндекс Переводчик Лайт ([4PDA](http://4pda.ru/forum/index.php?showtopic=970814))
 [![Последняя версия](https://img.shields.io/github/release/Zalexanninev15/Yandex-Translate-Lite.svg?style=flat-square)](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/latest)
-[![Лицензия](https://img.shields.io/github/license/Zalexanninev15/Yandex-Translate-Lite.svg?style=flat-square)](https://github.com/Zalexanninev15/Yandex-Translate-Lite/blob/master/LICENSE)
-## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/download/1.5/App.zip) | [ВСЕ ВЕРСИИ](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases)
-## [Скачать исходники (ZIP)](https://github.com/Zalexanninev15/Yandex-Translate-Lite/archive/master.zip) 
+[![Лицензия](https://img.shields.io/github/license/Zalexanninev15/Yandex-Translate-Lite.svg?style=flat-square)](https://github.com/Zalexanninev15/Yandex-Translate-Lite/blob/master/LICENSE) 
+### [Скачать исходники (ZIP)](https://github.com/Zalexanninev15/Yandex-Translate-Lite/archive/master.zip) 
 
 ## Скриншот
 ![alt text](https://i.imgur.com/a1yWaQR.jpg)
