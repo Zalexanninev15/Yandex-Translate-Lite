@@ -52,7 +52,6 @@ namespace Translator
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
                 materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue500, Primary.Blue700, Primary.Blue100, Accent.Yellow200, TextShade.WHITE);
-                //materialSkinManager.ColorScheme = new ColorScheme(Primary.Cyan500, Primary.Cyan700, Primary.Cyan100, Accent.Yellow200, TextShade.WHITE);
                 inputTextBox.BackColor = Color.DarkSlateGray;
                 inputTextBox.ForeColor = Color.White;
                 outputTextBox.BackColor = Color.DarkSlateGray;
@@ -66,7 +65,6 @@ namespace Translator
                 //Выключение тёмной темы (галочка) (включение дефолтной темы)
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-                //materialSkinManager.ColorScheme = new ColorScheme(Primary.Red600, Primary.Red700, Primary.Red400, Accent.Yellow700, TextShade.WHITE);
                 materialSkinManager.ColorScheme = new ColorScheme(Primary.Yellow700, Primary.Yellow800, Primary.Yellow800, Accent.Blue200, TextShade.WHITE);
                 inputTextBox.BackColor = SystemColors.Control;
                 inputTextBox.ForeColor = SystemColors.WindowText;
@@ -79,33 +77,73 @@ namespace Translator
 
         private void MaterialRaisedButton1_Click(object sender, EventArgs e)
         {
+
             if (materialRadioButton1.Checked == true)
             {
-                materialSingleLineTextField1.Clear();
-                lang = "ru-en";
-                outputTextBox.Text = yt.Translate(inputTextBox.Text, lang);
+                    materialSingleLineTextField1.Clear();
+                    lang = "ru-en";
+                try
+                {
+                        outputTextBox.Text = yt.Translate(inputTextBox.Text, lang);
+                }
+                catch
+                {
+                    MessageBox.Show(
+                   "Похоже у вас нет соединения :<",
+                   "Информация",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Information,
+                   MessageBoxDefaultButton.Button1,
+                   MessageBoxOptions.RightAlign);
+                }
             }
             if (materialRadioButton2.Checked == true)
-            {
-                materialSingleLineTextField1.Clear();
-                lang = "en-ru";
-                outputTextBox.Text = yt.Translate(inputTextBox.Text, lang);
+                {
+                    materialSingleLineTextField1.Clear();
+                    lang = "en-ru";
+                try
+                {
+                    outputTextBox.Text = yt.Translate(inputTextBox.Text, lang);
+                }
+                catch
+                {
+                    MessageBox.Show(
+                   "Похоже у вас нет соединения :<",
+                   "Информация",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Information,
+                   MessageBoxDefaultButton.Button1,
+                   MessageBoxOptions.RightAlign);
+                }
             }
-            if ((materialRadioButton1.Checked == false) && (materialRadioButton2.Checked == false) && ((materialSingleLineTextField1.Text != "Например: zh - en") || (materialSingleLineTextField1.Text != " ") || (materialSingleLineTextField1.Text != "")))
+            if ((materialRadioButton1.Checked == false) && (materialRadioButton2.Checked == false) && (materialSingleLineTextField1.Text != "Например: zh-en") && (materialSingleLineTextField1.Text != ""))
             {
-                lang = materialSingleLineTextField1.Text;
-                outputTextBox.Text = yt.Translate(inputTextBox.Text, lang);
+                    lang = materialSingleLineTextField1.Text;
+                try
+                {
+                    outputTextBox.Text = yt.Translate(inputTextBox.Text, lang);
+                }
+                catch
+                {
+                    MessageBox.Show(
+                   "Похоже у вас нет соединения :<",
+                   "Информация",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Information,
+                   MessageBoxDefaultButton.Button1,
+                   MessageBoxOptions.RightAlign);
+                }
             }
-            if ((materialRadioButton1.Checked == false) && (materialRadioButton2.Checked == false) && ((materialSingleLineTextField1.Text == "Например: zh - en") || (materialSingleLineTextField1.Text == "") || (materialSingleLineTextField1.Text == " ")))
-            {
-                MessageBox.Show(
-               "Выберете или введите язык перевода!",
-               "Ошибка!",
-               MessageBoxButtons.OK,
-               MessageBoxIcon.Information,
-               MessageBoxDefaultButton.Button1,
-               MessageBoxOptions.RightAlign);
-            }
+           if ((materialRadioButton1.Checked == false) && (materialRadioButton2.Checked == false) && ((materialSingleLineTextField1.Text == "Например: zh-en") || (materialSingleLineTextField1.Text == "")))
+           {
+                    MessageBox.Show(
+              "Выберете или введите язык перевода!",
+              "Информация",
+              MessageBoxButtons.OK,
+              MessageBoxIcon.Information,
+              MessageBoxDefaultButton.Button1,
+              MessageBoxOptions.RightAlign);
+           }
         }
 
         private void MaterialRaisedButton3_Click(object sender, EventArgs e)
@@ -139,6 +177,7 @@ namespace Translator
         private void materialRaisedButton7_Click_1(object sender, EventArgs e)
         {
             SaveFileDialog savefile = new SaveFileDialog();
+            savefile.FileName = "";
             savefile.DefaultExt = ".txt";
             savefile.Filter = "Текстовый файл|*.txt";
             if (savefile.ShowDialog() == System.Windows.Forms.DialogResult.OK && savefile.FileName.Length > 0)
