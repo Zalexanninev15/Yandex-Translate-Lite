@@ -26,7 +26,7 @@ namespace Translator
 
         private void MaterialRaisedButton1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://zalexanninev15.github.io/Yandex-Translate-Lite/");
+            System.Diagnostics.Process.Start("https://github.com/Zalexanninev15/Yandex-Translate-Lite");
         }
     }
 }
