@@ -11,6 +11,7 @@ using MaterialSkin.Animations;
 using MaterialSkin.Controls;
 using MaterialSkin;
 using System.IO;
+using Microsoft.Win32;
 
 namespace Translator
 {
@@ -26,8 +27,11 @@ namespace Translator
             yt = new YandexTranslator();
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
-            theme = Properties.Settings.Default.DarkMode;
-            if ((theme == "") || (theme == " ") || (theme == "0"))
+            using (RegistryKey reg = Registry.CurrentUser.CreateSubKey(@"Software\Zalexanninev15\Yandex-Translate-Lite"))
+            {
+                theme = Convert.ToString(reg.GetValue("theme"));
+            }
+            if ((theme == "") || (theme == "0"))
             {
                 materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
                 materialSkinManager.ColorScheme = new ColorScheme(Primary.Yellow700, Primary.Yellow800, Primary.Yellow800, Accent.Blue200, TextShade.WHITE);
@@ -56,8 +60,10 @@ namespace Translator
                 inputTextBox.ForeColor = Color.White;
                 outputTextBox.BackColor = Color.DarkSlateGray;
                 outputTextBox.ForeColor = Color.White;
-                Properties.Settings.Default.DarkMode = "1";
-                Properties.Settings.Default.Save();
+                using (RegistryKey reg = Registry.CurrentUser.CreateSubKey(@"Software\Zalexanninev15\Yandex-Translate-Lite"))
+                {
+                    reg.SetValue("theme", "1");
+                }
 
             }
             if (!b_w.Checked)
@@ -70,8 +76,10 @@ namespace Translator
                 inputTextBox.ForeColor = SystemColors.WindowText;
                 outputTextBox.BackColor = SystemColors.Control;
                 outputTextBox.ForeColor = SystemColors.WindowText;
-                Properties.Settings.Default.DarkMode = "0";
-                Properties.Settings.Default.Save();
+                using (RegistryKey reg = Registry.CurrentUser.CreateSubKey(@"Software\Zalexanninev15\Yandex-Translate-Lite"))
+                {
+                    reg.SetValue("theme", "1");
+                }
             }
         }
 

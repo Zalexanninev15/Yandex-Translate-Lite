@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using MaterialSkin.Animations;
 using MaterialSkin.Controls;
 using MaterialSkin;
+using System.Net.NetworkInformation;
 
 namespace Translator
 {
@@ -13,13 +14,23 @@ namespace Translator
     {
         /// <summary>
         /// Главная точка входа для приложения.
-        /// </summary>C:\Users\Максим\Desktop\Translator-master\Translator\Program.cs
+        /// </summary>
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            try
+            {
+                Ping ping = new Ping();
+                PingReply pingReply = null;
+                pingReply = ping.Send("yandex.ru");
+                if ((pingReply.Status != IPStatus.HardwareError) || (pingReply.Status != IPStatus.IcmpError))
+                {
+                        Application.EnableVisualStyles();
+                        Application.SetCompatibleTextRenderingDefault(false);
+                        Application.Run(new Form1());
+                }
+            }
+            catch { MessageBox.Show("Нет соединения с Интернетом!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
     }
-}
+    }
