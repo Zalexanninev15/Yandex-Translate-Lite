@@ -1,5 +1,5 @@
 # Яндекс Переводчик Лайт ([4PDA](http://4pda.ru/forum/index.php?showtopic=970814))
-## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/tag/1.6) | [ВСЕ ВЕРСИИ](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases)
+## [Скачать последнюю версию](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases/tag/1.7) | [ВСЕ ВЕРСИИ](https://github.com/Zalexanninev15/Yandex-Translate-Lite/releases)
 ## [Скачать исходники (ZIP)](https://github.com/Zalexanninev15/Yandex-Translate-Lite/archive/master.zip)
 
 ## Скриншот
