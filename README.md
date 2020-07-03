@@ -24,3 +24,7 @@
 ## Системные требования
 * Операционная система: Windows 7/8/8.1/10
 * Дополнительно: [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653), интернет-соединение, доступ к сервисам компании Яндекс (если доступа нет, то можно использовать VPN)
+
+## Используемые библиотеки 
+* [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) ([MIT License](https://github.com/IgnaceMaes/MaterialSkin/blob/master/LICENSE))
+* [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) ([MIT License](https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md))
