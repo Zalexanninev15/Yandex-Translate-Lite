@@ -185,9 +185,7 @@ namespace Translator
                    "Похоже у вас нет соединения :<",
                    "Информация",
                    MessageBoxButtons.OK,
-                   MessageBoxIcon.Information,
-                   MessageBoxDefaultButton.Button1,
-                   MessageBoxOptions.RightAlign);
+                   MessageBoxIcon.Information);
                 }
             }
             if (materialRadioButton2.Checked == true)
@@ -204,9 +202,7 @@ namespace Translator
                    "Похоже у вас нет соединения :<",
                    "Информация",
                    MessageBoxButtons.OK,
-                   MessageBoxIcon.Information,
-                   MessageBoxDefaultButton.Button1,
-                   MessageBoxOptions.RightAlign);
+                   MessageBoxIcon.Information);
                 }
             }
             if ((materialRadioButton1.Checked == false) && (materialRadioButton2.Checked == false) && (materialSingleLineTextField1.Text != "Например: zh-en") && (materialSingleLineTextField1.Text != ""))
@@ -222,9 +218,7 @@ namespace Translator
                    "Похоже у вас нет соединения :<",
                    "Информация",
                    MessageBoxButtons.OK,
-                   MessageBoxIcon.Information,
-                   MessageBoxDefaultButton.Button1,
-                   MessageBoxOptions.RightAlign);
+                   MessageBoxIcon.Information);
                 }
             }
            if ((materialRadioButton1.Checked == false) && (materialRadioButton2.Checked == false) && ((materialSingleLineTextField1.Text == "Например: zh-en") || (materialSingleLineTextField1.Text == "")))
@@ -233,9 +227,7 @@ namespace Translator
               "Выберете или введите язык перевода!",
               "Информация",
               MessageBoxButtons.OK,
-              MessageBoxIcon.Information,
-              MessageBoxDefaultButton.Button1,
-              MessageBoxOptions.RightAlign);
+              MessageBoxIcon.Information);
            }
         }
 
