@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +16,8 @@ using Microsoft.Win32;
 namespace Translator
 {
     public partial class Form1 : MaterialForm
-    {[DllImport("user32", CharSet = CharSet.Auto)]
+    {
+[DllImport("user32", CharSet = CharSet.Auto)]
         internal extern static bool PostMessage(IntPtr hWnd, uint Msg, uint WParam, uint LParam);
         [DllImport("user32", CharSet = CharSet.Auto)]
 #pragma warning disable CS0108
@@ -99,8 +100,7 @@ namespace Translator
         // =======================================================================================================================
         // =======================================================================================================================
         // =======================================================================================================================
-
-    
+
         Form f;
         string lang, theme;
         int form2 = 0;
